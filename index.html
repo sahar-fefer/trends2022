@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <title>Landing Page - Hottest trends</title>
+</head>
+
+<body>
+
+    <div class="banner">
+        <div class="header">
+            <h1>The Hottest eyewear <br />
+                trends for 2022 </h1>
+            <h2>These are the 7 styles that will
+                <br />dominate this year.
+            </h2>
+        </div>
+        <img src="./images/mainBanner.png" alt="main banner">
+    </div>
+    <nav>
+        <ul>
+            <li class="trend1"><a href="#trend1">Dusty pastels</a></li>
+            <li class="trend2"><a href="#trend2">Oversized aviator</a></li>
+            <li class="trend3"><a href="#trend3">Sustainable</a></li>
+            <li class="trend4"><a href="#trend4">Scholarly charm</a></li>
+            <li class="trend5"><a href="#trend5">Colorful tortoise</a></li>
+            <li class="trend6"><a href="#trend6">Smart and savvy</a></li>
+            <li class="trend7"><a href="#trend7">Chain reaction</a></li>
+        </ul>
+    </nav>
+    <div class="max-width">
+        <div class="quiz-banner">
+            <div class="about">Every year our talented team of in-house designers sit down to create and curate the
+                coolest
+                and most
+                stylish glasses as seen from the streets to the catwalks, and put together a list of must-have eyewear
+                trends.</div>
+            <div class="quiz-wrapper">
+                <div class="quiz">
+                    <div class="start-quiz">
+                        <h3>Find out which 2022 trend are you</h3>
+                        <div class="text">Additional gift awaits you at the end</div>
+                        <div class="dsmButton round quizBtn" onclick="startQuiz()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18.1" height="21.2"
+                                style="overflow:visible;enable-background:new 0 0 18.1 21.2">
+                                <path class="star2"
+                                    d="M4.2 3.4l.7 1.8 2 .1-1.5 1.3.5 1.9-1.7-1.1-1.6 1.1.5-1.9-1.6-1.3 2-.1.7-1.8z"
+                                    style="fill:#FFFFFF" />
+                                <path class="star3" d="M9.8 0l.4 1.1h1.2l-.9.7.3 1.2-1-.7-1 .7.3-1.2-.9-.6h1.2L9.8 0z"
+                                    style="fill:#FFFFFF" />
+                                <path class="star1"
+                                    d="M15.5 13.5l.8 1.7 1.9.2-1.4 1.3.4 1.9-1.7-.9-1.7.9.4-1.9-1.4-1.3 1.9-.2.8-1.7z"
+                                    style="fill:#FFFFFF" />
+                                <g class="wand">
+                                    <path
+                                        d="M12.4 6.4l2.1 2-3.1 3.2-2.1-2 3.1-3.2zM3 20.1h0zm8.7-14.4c.4-.4 1-.4 1.4 0l2.1 2c.4.4.4 1 0 1.4L3.8 20.9c-.4.4-1 .4-1.4 0l-2.1-2c-.4-.4-.4-1 0-1.4L11.7 5.7z"
+                                        style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF" />
+                                    <polygon class="st2" style="fill: #2196F3"
+                                        points="12.4,6.4 9.3,9.6 11.4,11.6 14.5,8.4" />
+                                </g>
+                            </svg>
+                            Take the Quiz
+                        </div>
+                    </div>
+                    <div class="active-quiz">
+                        <div class="pagination"></div>
+                        <div class="question"></div>
+                        <div class="options"></div>
+                    </div>
+                    <div class="end-quiz">
+                        <div class="done">Yay, you’re done!</div>
+                        <div class="title">Your 2022 trend is:</div>
+                        <div class="trend-type">Oversized Aviator</div>
+                        <a class="dsmButton round" href="" target="_blank" rel="noopener noreferrer">View
+                            Collection</a>
+                        <div class="reQuiz" onclick="reQuiz()">Retake Quiz</div>
+                        <img src="./images/tr1pic1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="trend1" class="trend">
+            <div class="separator"></div>
+            <div class="description">
+                <div class="num">TREND NO. 1</div>
+                <div class="name">Dusty pastels</div>
+                <div class="about">
+                    Pastel tones are taking on new meaning, associated with calm, comfort, and the desire to remain
+                    balanced
+                    in
+                    body and mind. More muted lavender, pink and sky blue are among the colors to look out for, with the
+                    summer
+                    promising a bolder, more energetic twist.
+                </div>
+                <button class="dsmButton round">See all Collection</button>
+            </div>
+
+            <div class="media">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/tr1pic1.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/tr1pic2.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/tr1pic3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="arrow next">
+                        <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g opacity="0.5">
+                                <path d="M1.5 10.5L6.5 6L1.5 1.5" stroke="#0F0F0F" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="arrow prev">
+                        <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.5 1.5L1.5 6L6.5 10.5" stroke="#0F0F0F" stroke-opacity="0.5" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="frames">
+                    <div class="frame">
+                        <a href="https://www.glassesusa.com/purpletortoisemulticolor-medium/amelia-e-veronique/35-002341.html"
+                            target="_blank" rel="noopener noreferrer">
+                            <img src="https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/5/35-002341_f.jpg"
+                                onmouseover="this.src='https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/5/35-002341_u.jpg'"
+                                onmouseout="this.src='https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/5/35-002341_f.jpg'"
+                                alt="Amelia E. Veronique frame">
+                        </a>
+                        <a href="https://www.glassesusa.com/purpletortoisemulticolor-medium/amelia-e-veronique/35-002341.html"
+                            target="_blank" rel="noopener noreferrer">Amelia E. Veronique</a>
+                    </div>
+                    <div class="frame">
+                        <a href="https://www.glassesusa.com/blueteal-medium/muse-byers/35-001258.html" target="_blank"
+                            rel="noopener noreferrer">
+                            <img src="https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/5/35-001258_f.jpg"
+                                onmouseover="this.src='https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/5/35-001258_u.jpg'"
+                                onmouseout="this.src='https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/5/35-001258_f.jpg'"
+                                alt="Muse Byers frame">
+                        </a>
+                        <a href="https://www.glassesusa.com/blueteal-medium/muse-byers/35-001258.html" target="_blank"
+                            rel="noopener noreferrer">Muse Byers</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="trend2" class="trend">
+            <div class="separator"></div>
+            <div class="description">
+                <div class="num">TREND NO. 2</div>
+                <div class="name">Oversized aviator</div>
+                <div class="about">
+                    This all-time favorite remains ever popular and this year will see oversized versions for a more
+                    modern twist on a classic frame. Expect to see round, teardrop and square styles for a light,
+                    vintage look that makes a strong statement.
+                </div>
+                <button class="dsmButton round">See all Collection</button>
+            </div>
+
+            <div class="media">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/tr2pic1.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/tr2pic2.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/tr2pic3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="arrow next">
+                        <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g opacity="0.5">
+                                <path d="M1.5 10.5L6.5 6L1.5 1.5" stroke="#0F0F0F" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="arrow prev">
+                        <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.5 1.5L1.5 6L6.5 10.5" stroke="#0F0F0F" stroke-opacity="0.5" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="frames">
+                    <div class="frame">
+                        <a href="https://www.glassesusa.com/gold-large/ottoto-magnus/35-m7676.html" target="_blank"
+                            rel="noopener noreferrer">
+                            <img src="https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/5/35-7676_f.jpg"
+                                onmouseover="this.src='https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/5/35-7676_u.jpg'"
+                                onmouseout="this.src='https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/5/35-7676_f.jpg'"
+                                alt="Ottoto Magnus frame">
+                        </a>
+                        <a href="https://www.glassesusa.com/gold-large/ottoto-magnus/35-m7676.html" target="_blank"
+                            rel="noopener noreferrer">Ottoto Magnus</a>
+                    </div>
+                    <div class="frame">
+                        <a href="https://www.glassesusa.com/blackgold-medium/ottoto-lilush/35-001934.html"
+                            target="_blank" rel="noopener noreferrer">
+                            <img src="https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/5/35-001934_f.jpg"
+                                onmouseover="this.src='https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/5/35-001934_u.jpg'"
+                                onmouseout="this.src='https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/5/35-001934_f.jpg'"
+                                alt="Ottoto Lilush frame">
+                        </a>
+                        <a href="https://www.glassesusa.com/blackgold-medium/ottoto-lilush/35-001934.html"
+                            target="_blank" rel="noopener noreferrer">Ottoto Lilush</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="trend3" class="trend">
+            <div class="separator"></div>
+            <div class="description">
+                <div class="num">TREND NO. 3</div>
+                <div class="name">Sustainable</div>
+                <div class="about">
+                    With collections that protect both your eyes and our planet, natural wood, coffee, cork and
+                    bio-acetate are among the latest materials being utilized for more eco-friendly eyewear that does
+                    not compromise on style. This year will see more focus on consciously crafted styles.
+                </div>
+                <button class="dsmButton round">See all Collection</button>
+            </div>
+
+            <div class="media">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/tr3pic1.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/tr3pic2.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/tr3pic3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="arrow next">
+                        <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g opacity="0.5">
+                                <path d="M1.5 10.5L6.5 6L1.5 1.5" stroke="#0F0F0F" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="arrow prev">
+                        <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.5 1.5L1.5 6L6.5 10.5" stroke="#0F0F0F" stroke-opacity="0.5" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="frames">
+                    <div class="frame">
+                        <a href="https://www.glassesusa.com/brownblack-medium/fenz-marsiglia-lv-brown/black/35-002564.html"
+                            target="_blank" rel="noopener noreferrer">
+                            <img src="https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/5/35-002564_f.jpg"
+                                onmouseover="this.src='https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/5/35-002564_u.jpg'"
+                                onmouseout="this.src='https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/5/35-002564_f.jpg'"
+                                alt="Fenz Marsiglia LV frame">
+                        </a>
+                        <a href="https://www.glassesusa.com/brownblack-medium/fenz-marsiglia-lv-brown/black/35-002564.html"
+                            target="_blank" rel="noopener noreferrer">Fenz Marsiglia LV</a>
+                    </div>
+                    <div class="frame">
+                        <a href="https://www.glassesusa.com/browntortoise-medium/seaclean/35-001956.html"
+                            target="_blank" rel="noopener noreferrer">
+                            <img src="https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/5/35-001956_f.jpg"
+                                onmouseover="this.src='https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/5/35-001956_u.jpg'"
+                                onmouseout="this.src='https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/5/35-001956_f.jpg'"
+                                alt="SeaClean frame">
+                        </a>
+                        <a href="https://www.glassesusa.com/browntortoise-medium/seaclean/35-001956.html"
+                            target="_blank" rel="noopener noreferrer">SeaClean</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="trend4" class="trend">
+            <div class="separator"></div>
+            <div class="description">
+                <div class="num">TREND NO. 4</div>
+                <div class="name">Scholarly charm</div>
+                <div class="about">
+                    This must-have is the answer to our pursuit of comfort and minimalism. The smart, round frame
+                    remains a timeless favorite, and has evolved from a perfect round profile to a softer look oval.
+                    This style allows you freedom to play with color and material, while remaining chic and sharp.
+                </div>
+                <button class="dsmButton round">See all Collection</button>
+            </div>
+
+            <div class="media">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/tr4pic1.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/tr4pic2.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/tr4pic3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="arrow next">
+                        <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g opacity="0.5">
+                                <path d="M1.5 10.5L6.5 6L1.5 1.5" stroke="#0F0F0F" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="arrow prev">
+                        <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.5 1.5L1.5 6L6.5 10.5" stroke="#0F0F0F" stroke-opacity="0.5" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="frames">
+                    <div class="frame">
+                        <a href="https://www.glassesusa.com/rose-gold-medium/ottoto-victoria/35-002066.html"
+                            target="_blank" rel="noopener noreferrer">
+                            <img src="https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/5/35-002066_f.jpg"
+                                onmouseover="this.src='https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/5/35-002066_u.jpg'"
+                                onmouseout="this.src='https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/5/35-002066_f.jpg'"
+                                alt="Ottoto Victoria frame">
+                        </a>
+                        <a href="https://www.glassesusa.com/rose-gold-medium/ottoto-victoria/35-002066.html"
+                            target="_blank" rel="noopener noreferrer">Ottoto Victoria</a>
+                    </div>
+                    <div class="frame">
+                        <a href="https://www.glassesusa.com/goldbrown-medium/ottoto-renan/32-001640.html"
+                            target="_blank" rel="noopener noreferrer">
+                            <img src="https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/2/32-001640_f_3.jpg"
+                                onmouseover="this.src='https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/2/32-001640_u_3.jpg'"
+                                onmouseout="this.src='https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/2/32-001640_f_3.jpg'"
+                                alt="Ottoto Renan frame">
+                        </a>
+                        <a href="https://www.glassesusa.com/goldbrown-medium/ottoto-renan/32-001640.html"
+                            target="_blank" rel="noopener noreferrer">Ottoto Renan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="trend5" class="trend">
+            <div class="separator"></div>
+            <div class="description">
+                <div class="num">TREND NO. 5</div>
+                <div class="name">Colorful tortoise</div>
+                <div class="about">
+                    The winning style that suits every skin tone, eye color and face shape, tortoiseshell glasses in
+                    2022 will come in unexpected colors and unique patterns. Expanding from the traditional neutrals, we
+                    predict a new classic that will stand the test of time.
+                </div>
+                <button class="dsmButton round">See all Collection</button>
+            </div>
+
+            <div class="media">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/tr5pic1.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/tr5pic2.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/tr5pic3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="arrow next">
+                        <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g opacity="0.5">
+                                <path d="M1.5 10.5L6.5 6L1.5 1.5" stroke="#0F0F0F" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="arrow prev">
+                        <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.5 1.5L1.5 6L6.5 10.5" stroke="#0F0F0F" stroke-opacity="0.5" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="frames">
+                    <div class="frame">
+                        <a href="https://www.glassesusa.com/multicolorbluetortoise-medium/muse-rocky/35-000160.html"
+                            target="_blank" rel="noopener noreferrer">
+                            <img src="https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/0/0/000160_f_2.jpg"
+                                onmouseover="this.src='https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/0/0/000160_u_6.jpg'"
+                                onmouseout="this.src='https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/0/0/000160_f_2.jpg'"
+                                alt="Muse Rocky frame">
+                        </a>
+                        <a href="https://www.glassesusa.com/multicolorbluetortoise-medium/muse-rocky/35-000160.html"
+                            target="_blank" rel="noopener noreferrer">Muse Rocky</a>
+                    </div>
+                    <div class="frame">
+                        <a href="https://www.glassesusa.com/multicolorbluetortoise-small/muse-marlene/39-p9469.html"
+                            target="_blank" rel="noopener noreferrer">
+                            <img src="https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/9/39-p9469_f.jpg"
+                                onmouseover="this.src='https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/9/39-p9469_u.jpg'"
+                                onmouseout="this.src='https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/9/39-p9469_f.jpg'"
+                                alt="Muse Marlene frame">
+                        </a>
+                        <a href="https://www.glassesusa.com/multicolorbluetortoise-small/muse-marlene/39-p9469.html"
+                            target="_blank" rel="noopener noreferrer">Muse Marlene</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="trend6" class="trend">
+            <div class="separator"></div>
+            <div class="description">
+                <div class="num">TREND NO. 6</div>
+                <div class="name">Smart and savvy</div>
+                <div class="about">
+                    Smart glasses have been around for a while, remaining under the radar for most. This year they’ll
+                    make an official debut and take us into the future with hands-free music and calls. Our collections
+                    ensure perfect audio plus crystal clear vision with customizable prescription lenses.
+                </div>
+                <button class="dsmButton round">See all Collection</button>
+            </div>
+
+            <div class="media">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/tr6pic1.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/tr6pic2.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/tr6pic3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="arrow next">
+                        <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g opacity="0.5">
+                                <path d="M1.5 10.5L6.5 6L1.5 1.5" stroke="#0F0F0F" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="arrow prev">
+                        <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.5 1.5L1.5 6L6.5 10.5" stroke="#0F0F0F" stroke-opacity="0.5" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="frames">
+                    <div class="frame">
+                        <a href="https://www.glassesusa.com/black-medium/revel-tune/32-001616.html" target="_blank"
+                            rel="noopener noreferrer">
+                            <img src="https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/2/32-001616_f.jpg"
+                                onmouseover="this.src='https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/2/32-001616_u.jpg'"
+                                onmouseout="this.src='https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/2/32-001616_f.jpg'"
+                                alt="Revel Tune sunglasses frame">
+                        </a>
+                        <a href="https://www.glassesusa.com/black-medium/revel-tune/32-001616.html" target="_blank"
+                            rel="noopener noreferrer">Revel Tune</a>
+                    </div>
+                    <div class="frame">
+                        <a href="https://www.glassesusa.com/black-medium/revel-tune/35-001960.html" target="_blank"
+                            rel="noopener noreferrer">
+                            <img src="https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/5/35-001960_f.jpg"
+                                onmouseover="this.src='https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/5/35-001960_u.jpg'"
+                                onmouseout="this.src='https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/5/35-001960_f.jpg'"
+                                alt="Revel Tune eyeglasses frame">
+                        </a>
+                        <a href="https://www.glassesusa.com/black-medium/revel-tune/35-001960.html" target="_blank"
+                            rel="noopener noreferrer">Revel Tune</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="trend7" class="trend">
+            <div class="separator"></div>
+            <div class="description">
+                <div class="num">TREND NO. 7</div>
+                <div class="name">Chain reaction</div>
+                <div class="about">
+                    Eyeglasses chains have risen to fame and proven themselves an accessory in their own right. Packed
+                    with style and creative flair, this year will see a colorful array of chain styles in metals,
+                    acrylic, beads and various chords.
+                </div>
+                <button class="dsmButton round">See all Collection</button>
+            </div>
+
+            <div class="media">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/tr7pic1.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/tr7pic2.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/tr7pic3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="arrow next">
+                        <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g opacity="0.5">
+                                <path d="M1.5 10.5L6.5 6L1.5 1.5" stroke="#0F0F0F" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="arrow prev">
+                        <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.5 1.5L1.5 6L6.5 10.5" stroke="#0F0F0F" stroke-opacity="0.5" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="frames">
+                    <div class="frame">
+                        <a href="https://www.glassesusa.com/pinkcleartortoise-medium/muse-x-hilary-duff-grace/24-000101.html"
+                            target="_blank" rel="noopener noreferrer">
+                            <img src="https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/2/4/24-000101_f_2.jpg"
+                                onmouseover="this.src='https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/2/4/24-000101_u_2.jpg'"
+                                onmouseout="this.src='https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/2/4/24-000101_f_2.jpg'"
+                                alt="Muse x Hilary Duff Grace frame">
+                        </a>
+                        <a href="https://www.glassesusa.com/pinkcleartortoise-medium/muse-x-hilary-duff-grace/24-000101.html"
+                            target="_blank" rel="noopener noreferrer">Muse x Hilary Duff Grace</a>
+                    </div>
+                    <div class="frame">
+                        <a href="https://www.glassesusa.com/black-medium/stella-mccartney-sc0099o/34-004542.html"
+                            target="_blank" rel="noopener noreferrer">
+                            <img src="https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/4/34-004542_f.jpg"
+                                onmouseover="this.src='https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/4/34-004542_u.jpg'"
+                                onmouseout="this.src='https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/media/catalog/product/3/4/34-004542_f.jpg'"
+                                alt="Stella McCartney SC0099O frame">
+                        </a>
+                        <a href="https://www.glassesusa.com/black-medium/stella-mccartney-sc0099o/34-004542.html"
+                            target="_blank" rel="noopener noreferrer">Stella McCartney SC0099O</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="shop-category">
+    <h3>Shop by category</h3>
+    <div class="categories">
+        <div class="category">
+            <img src="./images/category1.png" alt="Shop by eyeglasses">
+            <a class="dsmButton round white" href="https://www.glassesusa.com/eyeglasses-collection" target="_blank"
+                rel="noopener noreferrer">Eyeglasses</a>
+        </div>
+        <div class="category">
+            <img src="./images/category2.png" alt="Shop by sunglasses">
+            <a class="dsmButton round white" href="https://www.glassesusa.com/sunglasses" target="_blank"
+                rel="noopener noreferrer">Sunglasses</a>
+        </div>
+        <div class="category">
+            <img src="./images/category3.png" alt="Shop by multifocal">
+            <a class="dsmButton round white" href="https://www.glassesusa.com/progressive-lenses" target="_blank"
+                rel="noopener noreferrer">Multifocal</a>
+        </div>
+        <div class="category">
+            <img src="./images/category4.png" alt="Shop by designer glasses">
+            <a class="dsmButton round white" href="https://www.glassesusa.com/designer-glasses" target="_blank"
+                rel="noopener noreferrer">Designer Glasses</a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/seamless-scroll-polyfill@1.2.3/dist/es5/seamless.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        let insertScript = document.createElement("script");
+        insertScript.src = 'https://cdn.jsdelivr.net/npm/@glassesusa/dsm@latest/dist/dsm-effects.min.js'
+        document.head.appendChild(insertScript)
+
+        // insertScript = document.createElement('script')
+        // insertScript.src = "https://cdn.jsdelivr.net/npm/seamless-scroll-polyfill@latest/dist/es5/seamless.min.js"
+        // document.head.append(insertScript)
+
+        // insertScript = document.createElement("script");
+        // insertScript.src = 'https://cdn.jsdelivr.net/npm/@glassesusa/dsm@latest/dist/dsm-effects.min.js'
+        // document.head.appendChild(insertScript)
+
+        // Quiz
+        let num = 0;
+        let chosenRoad = []
+        let quizResult = ''
+        const cardContent = [
+            {
+                question: "What's the first thing you look for in glasses?",
+                options: ['Color', 'Style', 'Material']
+            },
+            {
+                question: {
+                    color: "What colors do you prefer?",
+                    style: "Which style best reflects your own?",
+                    material: "Which material do you prefer for your glasses?",
+                },
+                options: {
+                    color: ['Bold', 'Subtle'],
+                    style: ['Casual', 'Smart'],
+                    material: ['Eco-friendly', 'Traditional']
+                },
+            },
+            {
+                question: "What do you find most important?",
+                options: ['Lifestyle', 'Comfort']
+            }
+        ];
+        const allResults = [
+            {
+                id: 1,
+                name: 'Dusty pastels',
+                img: './images/dusty-pastels.png',
+                link: 'https://www.glassesusa.com/pastel-glasses?fbclid=IwAR3sewfon4xgHgMASXFYiG67BVc3haxzlcbAN_rpBmQRaQYnrJMxKuMx2XI&p=1&frame=2&tab=0'
+            },
+            {
+                id: 2,
+                name: 'Colorful tortoise',
+                img: './images/colorful-tortoise.png',
+                link: 'https://www.glassesusa.com/salesperson/result?q=tortoise&p=1&frame=2&tab=0'
+            },
+            {
+                id: 3,
+                name: 'Oversized aviator',
+                img: './images/oversized-aviator.png',
+                link: 'https://www.glassesusa.com/aviator-glasses?q=aviator%20glasses'
+            },
+            {
+                id: 4,
+                name: 'Scholarly charm',
+                img: './images/scholarly-charm.png',
+                link: '#scholarlyCharm'
+            },
+            {
+                id: 5,
+                name: 'Smart and savvy',
+                img: './images/smart-and-savvy.png',
+                link: 'https://www.glassesusa.com/revel-tune-glasses?q=revel%20tune'
+            },
+            {
+                id: 6,
+                name: 'Sustainable',
+                img: './images/sustainable.png',
+                link: 'https://www.glassesusa.com/sustainable-glasses?q=sustainable%20glasses'
+            },
+            {
+                id: 7,
+                name: 'Chain reaction',
+                img: './images/chain-reaction.png',
+                link: 'https://www.glassesusa.com/hilaryduff?q=muse%20x%20hilary%20duff'
+            }
+        ]
+
+        const checkResult = () => {
+            if (chosenRoad.includes('color')) {
+                if (chosenRoad.includes('bold')) {
+                    quizResult = 1;
+                }
+                else {
+                    quizResult = 2;
+                }
+            }
+            else if (chosenRoad.includes('style')) {
+                if (chosenRoad.includes('classic')) {
+                    quizResult = 3;
+                }
+                else {
+                    if (chosenRoad.includes('comfort')) {
+                        quizResult = 4;
+                    }
+                    else {
+                        quizResult = 5;
+                    }
+                }
+            }
+            else {
+                if (chosenRoad.includes('eco friendly')) {
+                    quizResult = 6;
+                }
+                else {
+                    quizResult = 7;
+                }
+            }
+        }
+        const setResult = () => {
+            const trendType = document.getElementsByClassName('trend-type')[0];
+            const trendImg = document.querySelector('.end-quiz img');
+            const trendLink = document.querySelector('.end-quiz a');
+
+            switch (quizResult) {
+                case 1:
+                    trendType.innerHTML = allResults[0].name;
+                    trendImg.src = allResults[0].img;
+                    trendLink.href = allResults[0].link;
+                    break;
+                case 2:
+                    trendType.innerHTML = allResults[1].name;
+                    trendImg.src = allResults[1].img;
+                    trendLink.href = allResults[1].link;
+                    break;
+                case 3:
+                    trendType.innerHTML = allResults[2].name;
+                    trendImg.src = allResults[2].img;
+                    trendLink.href = allResults[2].link;
+                    break;
+                case 4:
+                    trendType.innerHTML = allResults[3].name;
+                    trendImg.src = allResults[3].img;
+                    trendLink.href = allResults[3].link;
+                    break;
+                case 5:
+                    trendType.innerHTML = allResults[4].name;
+                    trendImg.src = allResults[4].img;
+                    trendLink.href = allResults[4].link;
+                    break;
+                case 6:
+                    trendType.innerHTML = allResults[5].name;
+                    trendImg.src = allResults[5].img;
+                    trendLink.href = allResults[5].link;
+                    break;
+                case 7:
+                    trendType.innerHTML = allResults[6].name;
+                    trendImg.src = allResults[6].img;
+                    trendLink.href = allResults[6].link;
+                    break;
+            }
+        }
+        const setNewQuestion = (question) => {
+            document.getElementsByClassName('question')[0].innerHTML = question;
+        }
+        const setNewOption = (options) => {
+            console.log('options', options);
+            options.map((option) => {
+                const opElem = document.createElement("div");
+                const opText = document.createTextNode(option);
+                opElem.appendChild(opText);
+                opElem.classList.add('option')
+                document.getElementsByClassName("options")[0].appendChild(opElem);
+                opElem.addEventListener("click", setNextCard);
+            })
+        }
+        const setNextCard = (event) => {
+            if (event) { chosenRoad.push(event.target.innerText.toLowerCase()) }
+
+            if (num < 3) {
+                const options = document.getElementsByClassName("options")[0].innerHTML = '';
+
+                if (typeof cardContent[num].options[0] !== 'string') {
+                    setNewQuestion(cardContent[num].question[chosenRoad[num - 1]])
+                    setNewOption(cardContent[num].options[chosenRoad[num - 1]])
+                }
+                else {
+                    setNewQuestion(cardContent[num].question)
+                    setNewOption(cardContent[num].options)
+                }
+
+                document.getElementsByClassName('pagination')[0].innerHTML = ++num + '/3';
+            }
+
+            else {
+                const startQuiz = document.getElementsByClassName('start-quiz')[0];
+                const endQuiz = document.getElementsByClassName('end-quiz')[0];
+                endQuiz.style.opacity = "1";
+                endQuiz.style.zIndex = "3";
+                startQuiz.style.opacity = "0";
+
+                document.getElementsByClassName('quiz')[0].classList.remove('flip');
+                checkResult()
+                setResult()
+
+                num = 0;
+                chosenRoad = [];
+                quizResult = ''
+
+            }
+        }
+
+        const reQuiz = () => {
+            const startQuiz = document.getElementsByClassName('start-quiz')[0];
+            const endQuiz = document.getElementsByClassName('end-quiz')[0];
+            startQuiz.style.opacity = "1";
+            endQuiz.style.zIndex = "-1";
+            endQuiz.style.opacity = "0";
+        }
+
+        const startQuiz = () => {
+            document.getElementsByClassName('quiz')[0].classList.add('flip');
+            setNextCard()
+        }
+
+        // smooth scroll
+        seamless.polyfill();
+        // or use specific methods
+        seamless.windowScrollBy(window, { behavior: "smooth", top: 200, left: 0 });
+
+        // seamless.elementScrollIntoView(document.querySelector("#trend"), {
+        //     behavior: "smooth",
+        //     block: "center",
+        //     inline: "center",
+        // });
+
+        // sticky nav
+        const trends = document.querySelectorAll(".trend");
+        const navLi = document.querySelectorAll("nav ul li");
+        const nav = document.querySelector("nav");
+
+        window.onscroll = () => {
+            let current = "";
+
+            trends.forEach((trend) => {
+                const sectionTop = trend.offsetTop;
+                if (pageYOffset >= sectionTop - 64) {
+                    current = trend.getAttribute("id");
+                }
+            });
+
+            nav.classList.remove("active");
+            navLi.forEach((li) => {
+                li.classList.remove("active");
+                if (li.classList.contains(current)) {
+                    li.classList.add("active");
+                    nav.classList.add("active");
+                }
+            });
+        };
+
+        // smooth scroll
+        function scrollTo(el, left, top) {
+            if (typeof seamless != 'undefined')
+                seamless.elementScroll(el, {
+                    left: left,
+                    top: top,
+                    behavior: "smooth",
+                    duration: 300
+                });
+        }
+
+        document.querySelectorAll('nav ul li a').forEach(a => {
+            if (!a.href || a.target) return
+            if (!a.href.includes('#')) return
+            a.addEventListener("click", e => {
+                e.preventDefault();
+                let el = document.getElementById(a.href.split("#")[a.href.split("#").length - 1])
+                seamless.elementScrollIntoView(el, {
+                    behavior: "smooth",
+                    top: 200,
+                    block: "center",
+                    inline: "center",
+                });
+            })
+        })
+
+        // Initial swiper
+        var swiper = new Swiper(".swiper", {
+            slidesPerView: 1,
+            spaceBetween: 5,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".next",
+                prevEl: ".prev",
+            },
+        });
+
+        // Quiz icon animation //
+        document.querySelectorAll('button.quizBtn').forEach((r) => {
+            setTimeout(() => {
+                r.classList.add('animationPlay');
+                setTimeout(() => {
+                    r.classList.remove('animationPlay');
+                }, 2000);
+                setInterval(() => {
+                    r.classList.add('animationFade');
+                    setTimeout(() => {
+                        r.classList.remove('animationFade');
+                        r.classList.add('animationPlay');
+                        setTimeout(() => {
+                            r.classList.remove('animationPlay');
+                        }, 2000);
+                    }, 600);
+                }, 4000);
+            }, 500);
+        });
+    </script>
+</body>
+
+</html>
